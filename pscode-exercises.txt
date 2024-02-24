@@ -1,0 +1,69 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+a + b = c
+
+num1 + num2 = sum
+print sum
+
+ask for 2 numbers 
+add the 2 number together 
+print on the screen the sum of those 2 numbers
+
+
+// Exercise 2: Check if a Number is Even or Odd
+
+(Your pseudocode here)
+- ask for two numbers a, b 
+- divide those  numbers to each other by using the modulus sign (%) (a % b or b % a)
+- if the result doesn t have a remainder, then the number is even
+- if the result does have a remainder, then the number is odd
+- print (if number is even or odd) after each calculus
+
+	input(a, b)
+	if a % b = 0 
+		print(number is even)
+	if b % a = 0
+		print(number is even)
+	if a % b != 0
+		print(number is odd) 
+	if b % a != 0
+		print(number is odd) 
+		
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers. 
+- ask for 5 separate numbers
+	a != b !=c != d != e
+	
+	input (a, b, c, d, e)
+	print(a, b, c, d, e)
+
+b) Calculate the average of the five numbers.
+-sum the numbers chosen and then divide them by how many numbers you chose
+	sum = a + b + c + d + e
+	average_result = sum / 5
+		print (average_result)
+
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+
+- use the prebuilt function (min() in python) which will find the minimum number 
+- print (minumum number)
+- use the prebuilt function (max() in python) which will find the maximum number
+- print (maximum number)
+
+	minimum_number = min(numbers) 
+	print(minimum_number)
+	
+	maximum_number = max(numbers)
+	print(maximum_number)
+	
+
+d) Write out the results found from steps b and c with a message describing what they are
+(Your pseudocode here)
+	print('The average result in the numbers chosen is {average_result})
+	print('The minimum number from the numbers chosen is {minimum_number} 
+		and the maximum number is {maximum_number})
+
+-- END --
+
